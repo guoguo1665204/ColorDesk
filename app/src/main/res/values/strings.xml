@@ -1,0 +1,15 @@
+<resources>
+    <string name="grid_columns">%1$d 列</string>
+    <string name="grid_rows">%1$d 行</string>
+    <string name="slider_value">%1$s：%2$d%%</string>
+    <string name="cell_summary">图标 %1$d · 空位 %2$d · 固定 %3$d</string>
+    <string name="environment_status">%1$s\nAndroid %2$s · %3$s %4$s\n%5$s\n无障碍：%6$s</string>
+    <string name="accessibility_description">仅在你主动启动整理时读取桌面、截取图标并模拟拖动，用于按颜色排列原生桌面图标。截图仅在本机内存处理，不上传。可以随时停止或关闭服务。</string>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#5369E8</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">#F5F6FA</item>
+    </style>
+</resources>

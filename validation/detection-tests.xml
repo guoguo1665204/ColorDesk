@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.colordesk.app.core.DetectionTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-10-05T08:18:32.070Z" time="0.133">
+  <properties/>
+  <testcase name="androidWidgetNamespaceDoesNotExcludeOrdinaryTextViews" classname="com.colordesk.app.core.DetectionTest" time="0.059"/>
+  <testcase name="screenshotBoxesRefineTextOnlyNodes" classname="com.colordesk.app.core.DetectionTest" time="0.006"/>
+  <testcase name="imageCandidatesFindColoredSquaresWithoutIncludingLabels" classname="com.colordesk.app.core.DetectionTest" time="0.02"/>
+  <testcase name="duplicateTextAndDescriptionNodesDoNotCreateDuplicateSlots" classname="com.colordesk.app.core.DetectionTest" time="0.001"/>
+  <testcase name="folderWidgetAndDockAreExcludedEvenWithMatchingAppNames" classname="com.colordesk.app.core.DetectionTest" time="0.004"/>
+  <testcase name="badgeDescriptionCanMatchAnAppButNamePrefixesCannot" classname="com.colordesk.app.core.DetectionTest" time="0.001"/>
+  <testcase name="nonDefaultSpacingUsesActualCoordinates" classname="com.colordesk.app.core.DetectionTest" time="0.002"/>
+  <testcase name="observedInteriorGapCanBeInferredWithoutInventingApp" classname="com.colordesk.app.core.DetectionTest" time="0.001"/>
+  <testcase name="unobservedSlotsRemainUnconfirmed" classname="com.colordesk.app.core.DetectionTest" time="0.0"/>
+  <testcase name="blankScreenshotHasNoIcons" classname="com.colordesk.app.core.DetectionTest" time="0.008"/>
+  <testcase name="hiddenOrOutOfScreenPositionsAreIgnored" classname="com.colordesk.app.core.DetectionTest" time="0.001"/>
+  <testcase name="nativeImageBoundsTakePriorityOverEstimatesAndScreenshot" classname="com.colordesk.app.core.DetectionTest" time="0.001"/>
+  <testcase name="nativeImagePositionsCanStillBeUsedWhenAppCatalogIsUnavailable" classname="com.colordesk.app.core.DetectionTest" time="0.003"/>
+  <testcase name="busyNoiseWallpaperIsNotAcceptedAsManyApps" classname="com.colordesk.app.core.DetectionTest" time="0.021"/>
+  <testcase name="visualFallbackNeverCertifiesAnApplication" classname="com.colordesk.app.core.DetectionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
